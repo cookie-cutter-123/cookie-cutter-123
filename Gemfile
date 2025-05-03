@@ -1,7 +1,12 @@
 source "https://rubygems.org"
-gem "jekyll-theme-clean-blog"
 
-gem "csv",     "~> 3.3"
-gem "webrick", "~> 1.8"
+gem "jekyll", "~> 3.9"
+gem "jekyll-remote-theme"
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
+# Ruby 3.4 standard libs no longer bundled
+gem "logger"
+gem "base64"
+gem "bigdecimal"
+
+# Required to run server locally - included in GH
+gem "kramdown-parser-gfm"
