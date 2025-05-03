@@ -1,0 +1,36 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# Sass cache
+.sass-cache/
+
+# Logs
+log/
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# JetBrains IDE settings
+.idea/
+*.iml
+
+# Byebug (Ruby debugging)
+.byebug_history
+
+# Node modules
+node_modules/
