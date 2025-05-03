@@ -1,0 +1,14 @@
+---
+layout: page
+title: All Posts
+permalink: /posts/
+---
+
+<ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span><br />
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
